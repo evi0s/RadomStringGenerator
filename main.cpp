@@ -12,7 +12,7 @@ const char CCH[] = "_0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVW
 
 ofstream fout;
 
-string getrand(int size){
+inline string getrand(int size){
     string ch;
     ch.resize(size + 1);
     for (int i = 0; i < size; i++){
@@ -81,6 +81,7 @@ int main(int argc, char *argv[]){
         fout << n << "\n";
     for(int i = 0; i < n; i++)
         fout << getrand(size) << "\n";
+    cout << "Generated!" << endl;
     toc;
     return 0;
 }
