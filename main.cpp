@@ -63,8 +63,10 @@ int main(int argc, char *argv[]){
         cerr << a.usage();
         return 0;
     }else{
-        cout << a.usage() << endl;
-        cout << "Generating using default settings..." << endl;
+        if(argc == 1){
+            cout << a.usage() << endl;
+            cout << "Generating using default settings..." << endl;
+        }
         n = a.get<int>("number");
         size = a.get<int>("length");
         outfile = a.get<string>("path");
