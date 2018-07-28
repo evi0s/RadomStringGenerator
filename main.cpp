@@ -35,7 +35,7 @@ int main(int argc, char *argv[]){
     a.add("interactive", 'i', "interactive mode");
     a.add<bool>("cases", 'c', "insert the number of strings to the first line of the file", false, true);
     a.add("help", 0, "print this message");
-    a.set_program_name("RadomStringGenerator");
+    a.set_program_name("RandomStringGenerator");
     
     bool ok = a.parse(argc, argv);
     
