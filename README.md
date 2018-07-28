@@ -27,3 +27,7 @@ Print the usage
 ## Other points
 
 * run without any parm will generate as well, which using the default values.
+
+## License
+
+The 'cmdline.h' header file is licensed by [tanakh](https://github.com/tanakh/cmdline)
