@@ -1,5 +1,5 @@
-# RadomStringGenerator
-A Radom String Generator
+# RandomStringGenerator
+A Random String Generator
 
 ## Usage
 
